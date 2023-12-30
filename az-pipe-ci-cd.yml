@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'dev'
+    environment: 'vijayakumar1azuredevopsgithubacraksapp1.dev'
     strategy:
       runOnce:
         deploy:
